@@ -1,0 +1,4 @@
+[submodule "mruby"]
+	path = mruby
+	url = https://github.com/tszki/mruby.git
+	branch = 1.1.0-for-mruby-extension-module
