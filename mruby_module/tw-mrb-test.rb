@@ -37,12 +37,3 @@ class MonitoringModule
     end
   end
 end
-
-if $0 == __FILE__ then
-  a = MonitoringModule.new
-  a.zbx_module_init
-  puts a.zbx_module_run
-  puts a.zbx_module_run
-  puts a.zbx_module_run
-  a.zbx_module_uninit
-end
